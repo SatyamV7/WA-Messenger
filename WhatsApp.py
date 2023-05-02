@@ -9,8 +9,8 @@ print("Note: You must have to have Python 3.11 installed on your computer")
 print("Note: You must have to be connected to the internet")
 print("Please enter the details below")
 
-eNum = input("Enter the mobile number to message:- ")
-eMsg = input("Enter the message to send:- ")
-
-pywhatkit.sendwhatmsg_instantly(eNum, eMsg)
-time.sleep(5)
+while (0 == 0):
+    eNum = input("Enter the mobile number to message:- ")
+    eMsg = input("Enter the message to send:- ")
+    pywhatkit.sendwhatmsg_instantly(eNum, eMsg)
+    time.sleep(5)
